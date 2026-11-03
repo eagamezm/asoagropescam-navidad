@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Estilos globales */
+:root {
+  --forest: #173729;
+  --leaf: #6d936c;
+  --cream: #f7f1e5;
+  --gold: #c7a66a;
+  --red: #b3262d;
+  --dark-red: #851e27;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  color: var(--forest);
+}
